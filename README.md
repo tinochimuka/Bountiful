@@ -1,4 +1,4 @@
-### Bountiful: The Future Of Crowdfunding
+## Bountiful: The Future Of Crowdfunding
 
 ![Screenshot (26)](https://user-images.githubusercontent.com/129856164/229990211-502e842e-4477-4508-aa88-481828889e16.png)
 
