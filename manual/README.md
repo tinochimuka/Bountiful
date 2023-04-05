@@ -25,6 +25,7 @@ For the final option, select EmptyContract, and let thirdweb start building your
 ![Screenshot (33)](https://user-images.githubusercontent.com/129856164/229992691-91cd9db0-b94a-4215-a723-5e012695570b.png)
 
 <br/>
+
 ## 2: Create MetaMask Wallet
 This wallet is a crypt based wallet that serves as a wallet on any blockchain platform. This is what we will use to connect to our contract and our frontend, 
 make transactions and deploy our contracts. 
