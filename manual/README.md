@@ -261,4 +261,4 @@ To test the front-end and finally join the debugging process, run the following 
 
 **npm run dev**
 
-This initiates a localhost instance that you can use to interact with your complete and connected system!
+This initiates a localhost instance that you can use to interact with your complete and connected system! (cntrl + c to cancel dev)
