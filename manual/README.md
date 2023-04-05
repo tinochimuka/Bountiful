@@ -1,6 +1,6 @@
-##Step-By-Step Instructions to set up bountiful:
+# Step-By-Step Instructions to set up bountiful:
 
-#1: Create Contract
+## 1: Create Contract
 In an empty folder, open Visual Studio Code and creat an empty folder called client. This is where all our front-end code will reside.
 ![Screenshot (27)](https://user-images.githubusercontent.com/129856164/229991420-1698fcbb-999b-415b-abe7-372fa7571414.png)
 
@@ -25,7 +25,7 @@ For the final option, select EmptyContract, and let thirdweb start building your
 ![Screenshot (33)](https://user-images.githubusercontent.com/129856164/229992691-91cd9db0-b94a-4215-a723-5e012695570b.png)
 
 <br/>
-#2: Create MetaMask Wallet
+## 2: Create MetaMask Wallet
 This wallet is a crypt based wallet that serves as a wallet on any blockchain platform. This is what we will use to connect to our contract and our frontend, 
 make transactions and deploy our contracts. 
 To do so, visit: http://metamask.io/ and click the 'Add to Chrome Button'
@@ -50,7 +50,7 @@ You should see the results shown below:
 <br/>
 
 
-#3: Add Some GoerliETH to your wallet:
+## 3: Add Some GoerliETH to your wallet:
 At the top of your wallet, youll see an address, this is your metamask wallet address. Click to copy this to your keyboard:
 ![Screenshot (44)](https://user-images.githubusercontent.com/129856164/229995713-bf00da64-c236-41a6-830f-754c7a080357.png)
 
