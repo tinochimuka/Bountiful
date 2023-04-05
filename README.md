@@ -1,10 +1,10 @@
-## Bountiful: The Future Of Crowdfunding
+# Bountiful: The Future Of Crowdfunding
 
 ![Screenshot (26)](https://user-images.githubusercontent.com/129856164/229990211-502e842e-4477-4508-aa88-481828889e16.png)
 
 <br/>
 
-A secure, end-to-end Web 3.0 crowdfunding platform that runs on Etherium blockchain
+## A secure, end-to-end Web 3.0 crowdfunding platform that runs on Etherium blockchain
 
 Welcome to Bountiful, the blockchain-based crowdfunding platform that is changing the game for fundraising. Built with thirdweb and solidity, including tailwind css and vite.js, Bountiful is the most secure and transparent way to raise funds for your project or cause.
 
@@ -18,5 +18,6 @@ At Bountiful, we are committed to making the world a better place, one campaign 
 
 So what are you waiting for? Sign up for Bountiful today and start raising funds the smart way.
 <br/>
-![Screenshot (19)](https://user-images.githubusercontent.com/129856164/229988153-bdd33191-fee6-4d59-a0b1-b59dbd3e2dec.png)
+![Screenshot (20)](https://user-images.githubusercontent.com/129856164/230005794-71e0ee19-c0b0-4d52-b166-3020bb73aff8.png)
+
 <br/>
