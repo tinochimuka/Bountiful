@@ -210,3 +210,27 @@ You will then be redirected to your dashboard where you can manage your contract
 
 ![Screenshot (50)](https://user-images.githubusercontent.com/129856164/230005327-3348e39f-ee18-4cd5-8a36-77073497a395.png)
 
+<br/>
+
+# 6 Building The Front-End
+The client side of our app will make use of react(vite) and tailwind css. To begin building our project:
+
+**cd ../client**
+And then run the following command:
+**npx thirdweb@create --app**
+
+Next, you will be prompted to make a series of selections. On the first option, name your project './' so that it takes the name of 
+the folder (client) as its name. 
+![Screenshot (54)](https://user-images.githubusercontent.com/129856164/230023418-9951e6c6-619d-4a19-b6ee-d688f302c1c7.png)
+
+Next, select Vite as the program framework to use:
+![Screenshot (56)](https://user-images.githubusercontent.com/129856164/230024408-5280ff8a-a020-47ce-860c-eeb6df330a4b.png)
+
+Next, select JavaScript as the default language it will use.
+![Screenshot (55)](https://user-images.githubusercontent.com/129856164/230023996-d8b89eb9-ab7d-4f52-a833-72d10d212512.png)
+
+Finally, you should see an output similar to the one below. 
+![Screenshot (56)](https://user-images.githubusercontent.com/129856164/230023715-9b647256-09a8-45b4-acfd-a11453b42c8d.png)
+
+# 7: Adding assets and files
+Now that our react app has been initialized, we can start implementing the front-end design and logic.
