@@ -241,7 +241,7 @@ like so:
 
 # 7: Adding assets and files
 Now that our react app has been initialized, we can start implementing the front-end design and logic.
-Navigate to this repositories **client/src** folder and add you can copy and paste the folder into your client folder as **src**.
+Navigate to this repositories **client/src** folder and add you can copy and paste the folder and files into your client folder as **src**.
 
 In the code window, open src/context/index.jsx and navigate to the contract definition. In your browser, open your deployed contracts dashboard and copy the address under the contract name as so: 
 
@@ -255,7 +255,7 @@ export const StateContextProvider = ({ children }) => {
 ```
 This allows the front end to read from the contract we deployed, and our contract already reading our wallet information because remember, we used it to connect to the testnet, pay for the tesnet and got our private key that we placed in the .env file. 
 
-#8 Test and Deploy: 
+# 8: Test and Deploy: 
 
 To test the front-end and finally join the debugging process, run the following command:
 
