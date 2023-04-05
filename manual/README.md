@@ -40,7 +40,7 @@ for testnetworks to be on. This will allow us to connect to the Goerli tesnet an
 ![Screenshot (39)](https://user-images.githubusercontent.com/129856164/229994504-9bd251da-aa0f-4f64-991a-320465c62d98.png)
 
 **Make sure to pin the metamask wallet to your browser toolbar for ease of access:**
-![Screenshot (40)](https://user-images.githubusercontent.com/129856164/229994689-060b3127-af3d-494e-a76d-9012428427b6.png)
+
 
 Once this is complete, you should see a little orange fox at the top of your google chrome toolbar, and you can click on this to connect to Goerli. 
 Select the button written 'Etherium Mainnet' and change the mainnet to the Goerli Testnet. (Upon production deployment, just do this in reverse).
