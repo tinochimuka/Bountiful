@@ -63,3 +63,51 @@ which takes at most 5 minutes of mining on a slow computer. Average testnets cos
 ![Screenshot (47)](https://user-images.githubusercontent.com/129856164/229996820-65a10dc8-5f9a-4b1c-94fa-c63fcf279d3d.png)
 
 **Leave this Process to run for a few hours**
+<br/>
+# 4: Setup Private Key
+Go to your browser, click on the fox icon and open your wallet. 
+Then, click on the dot menu to the top right of your main account page and select 'Account Details'
+
+![Screenshot (48)](https://user-images.githubusercontent.com/129856164/229998780-200d9500-4ba4-4fa5-a0f6-16a797ef661b.png)
+
+Then, select Export Private Key:
+
+![Screenshot (49)](https://user-images.githubusercontent.com/129856164/229998863-bc2db64c-89be-4de5-a840-c72a93da44e7.png)
+
+Copy the key you are given and reopen Visual Studio Code.
+
+In the terminal, **navigate to your web3 folder with the cd web3 command** and then run the following command:
+**npm install dotenv**
+This is what we will use to store and access our private key in our project
+Under the web3 folder, create a file called **.env** and write the following:
+
+PRIVATE_KEY = XXXXX (Paste here)
+
+Save the file and proceed with these instructions.
+Open the HardHat.config.json file and paste the following code:
+``` 
+/** @type import('hardhat/config').HardhatUserConfig */
+module.exports = {
+  solidity: {
+    version: '0.8.9',
+    defaultNetwork: 'goerli',
+    networks: {
+      hardhat: {},
+      goerli: {
+        url: 'https://rpc.ankr.com/eth_goerli',
+        accounts: [`0x${process.env.PRIVATE_KEY}`]
+      }
+    },
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 200,
+      },
+    },
+  },
+};
+```
+This will ensure a connection to our metamask wallet and allow us to transact with our contracts.
+
+
+
