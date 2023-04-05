@@ -229,8 +229,36 @@ Next, select Vite as the program framework to use:
 Next, select JavaScript as the default language it will use.
 ![Screenshot (55)](https://user-images.githubusercontent.com/129856164/230023996-d8b89eb9-ab7d-4f52-a833-72d10d212512.png)
 
-Finally, you should see an output similar to the one below. 
+Next, you should see an output similar to the one below. 
 ![Screenshot (56)](https://user-images.githubusercontent.com/129856164/230023715-9b647256-09a8-45b4-acfd-a11453b42c8d.png)
+
+Finally, install react-router-dom to enable navigability within our app:
+Go to your terminal, ensure you are in the client folder and run the following command:
+**npm install react-router-dom**
+like so:
+![Screenshot (58)](https://user-images.githubusercontent.com/129856164/230026483-8afef9f7-de18-46d5-8681-b9c258a655ba.png)
+
 
 # 7: Adding assets and files
 Now that our react app has been initialized, we can start implementing the front-end design and logic.
+Navigate to this repositories **client/src** folder and add you can copy and paste the folder into your client folder as **src**.
+
+In the code window, open src/context/index.jsx and navigate to the contract definition. In your browser, open your deployed contracts dashboard and copy the address under the contract name as so: 
+
+![Screenshot (59)](https://user-images.githubusercontent.com/129856164/230028136-08bf556a-3748-4194-827a-b59754844cd8.png)
+
+Take that value and paste it in index.jsx as shown below:
+```
+export const StateContextProvider = ({ children }) => {
+  const { contract } = useContract('Enter your Metamask Address here');
+  const { mutateAsync: createCampaign } = useContractWrite(contract, 'createCampaign');
+```
+This allows the front end to read from the contract we deployed, and our contract already reading our wallet information because remember, we used it to connect to the testnet, pay for the tesnet and got our private key that we placed in the .env file. 
+
+#8 Test and Deploy: 
+
+To test the front-end and finally join the debugging process, run the following command:
+
+**npm run dev**
+
+This initiates a localhost instance that you can use to interact with your complete and connected system!
